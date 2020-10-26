@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Roboto, sans-serif;
+    }
+
+    .header {
+
+    }
+
+    .container-1 {
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: white;   
+        box-shadow: 5px 10px #888888;
+    }
+
+    .container-2 {
+        width: 100%;
+        background-color: #9b5c8f;
+        /*background-image: url(https://merehead.com/blog/wp-content/uploads/gradient-design.jpeg) ;*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+
+    .navigation{
+
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        height: 100px;
+        list-style: none;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        text-decoration: none;
+        
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-left: 25px ;
+        margin-right: 25px;
+        height: 100%;
+        /*border-right: palevioletred 1px solid;*/
+    }
+
+    li:hover {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-left: 25px ;
+        margin-right: 25px;
+        height: 100%;
+        background-color: #f1f1f1;
+        transition: ease-in .3s;
+        /*border-right: palevioletred 1px solid;*/
+    }
+
+
+    li:first-child {
+        height: 100%;
+        margin-left: 50px ;
+        margin-right: 25px;
+        height: 100%;
+        /*border-right: palevioletred 1px solid;*/
+        
+    }
+
+    li:last-child {
+        height: 100%;
+        margin-left: 25px ;
+        margin-right: 0px;
+        height: 100%;
+        /*border-right: palevioletred 1px solid;*/
+        
+    }
+
+    section-1 {
+        background-color: gainsboro;
+    }
+    h1 {
+        line-height: 200px;
+        font-size: 48px;
+        padding-left: 50px;
+        color: white;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: #9b5c8f;
+        transition: ease-in-out;
+    }
+    .logo {
+        height: 50px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: 50px;
+        margin-left: 10px;
+    }
+</style>
+    <header class="header">
+        <div class="container-1">
+            <nav class="navigation">
+                <ul>
+                        <li>
+                            <a href="#!">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                Pricing
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+            <img src="https://cdn.worldvectorlogo.com/logos/woocommerce.svg" alt="" class="logo">
+        </div>
+        <div class="container-2">
+            <h1>Browser Kid</h1>
+        </div>
+    </header>
+    <section class="section-1">
+
+    </section>
+</body>
+</html>
